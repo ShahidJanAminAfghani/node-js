@@ -1,0 +1,105 @@
+.card {
+    margin: 0px auto;
+    width: 80%;
+    background-image: url('https://images.unsplash.com/photo-1508592931388-95bc7b61033d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw4NjMzODEwfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500');
+    background-size: cover;
+}
+
+.info {
+    width: 80%;
+    height: fit-content;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0px auto;
+    color: aqua;
+}
+
+.info hr {
+    border: 2px solid aqua;
+}
+
+.info table {
+    margin: 0px auto;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.info table tr td {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+
+/* for search button */
+
+#ul {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#ul li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+#ul li input,
+#ul li button {
+    width: 100%;
+    border-radius: 20px 10px 20px 10px;
+}
+
+#ul li button {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    transition: 0.5s;
+}
+
+#ul li button:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+/* for moile */
+
+@media only screen and (max-width: 600px) {
+    .info {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        margin: 0px auto;
+        color: aqua;
+    }
+    .info hr {
+        border: 2px solid aqua;
+    }
+    .info table {
+        margin: 0px auto;
+    }
+    .info h2 {
+        text-align: center;
+    }
+    .info table tr td {
+        padding-left: 20px;
+        font-size: 15px;
+    }
+}
