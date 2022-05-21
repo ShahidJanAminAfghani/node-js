@@ -1,0 +1,17 @@
+{
+    "name": "web-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shahid Jan Amin",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "express": "^4.18.1",
+        "jquery": "^3.6.0",
+        "node-fetch": "^3.2.4"
+    }
+}
